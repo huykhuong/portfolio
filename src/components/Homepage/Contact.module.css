@@ -1,0 +1,41 @@
+.container {
+  margin-top: 99px;
+  width: 100%;
+}
+
+.heading {
+  width: fit-content;
+  margin: 0 auto 22px;
+}
+
+.contact_sentence {
+  margin: 0;
+  margin-bottom: 53px;
+  text-align: center;
+}
+
+.spacer {
+  height: 62px;
+}
+
+.spacer:last-child {
+  height: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    margin-top: 197px;
+  }
+
+  .heading {
+    margin: 0 auto 34px;
+  }
+
+  .contact_sentence {
+    margin-bottom: 112px;
+  }
+
+  .spacer {
+    height: 96px;
+  }
+}

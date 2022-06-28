@@ -1,0 +1,41 @@
+.title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.desktop_body {
+  width: fit-content;
+  display: block;
+  font-weight: 300;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: -0.64;
+  line-height: 125%;
+  word-break: break-all;
+  color: #000000;
+  margin: 0 auto;
+  transition: 0.5s var(--easing-curve);
+}
+
+.mobile_body {
+  color: #000000;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: -0.32;
+  line-height: 125%;
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 1280px) {
+  .title {
+    margin-bottom: 24px;
+  }
+
+  .desktop_body:hover {
+    color: #0047ff;
+  }
+}

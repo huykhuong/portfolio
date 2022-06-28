@@ -1,0 +1,31 @@
+.intro {
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+
+.summary {
+  margin-top: 16px;
+  color: var(--body-text);
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text_container {
+    margin-top: 165px;
+    margin-left: 99px;
+  }
+
+  .intro {
+    width: 568.04px;
+  }
+
+  .summary {
+    margin-top: 24px;
+    width: 371px;
+  }
+}

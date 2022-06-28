@@ -1,0 +1,15 @@
+.container {
+  margin-top: 85px;
+  width: 100%;
+}
+
+.heading {
+  width: fit-content;
+  margin: 0 auto 66px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    margin-top: 150px;
+  }
+}

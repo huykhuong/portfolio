@@ -1,0 +1,15 @@
+.container {
+  margin-top: 92px;
+  width: 288px;
+  height: 216px;
+  border: 1px solid #000;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 253.76px;
+  height: 190.32px;
+}

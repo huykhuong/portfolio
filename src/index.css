@@ -1,13 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+  --easing-curve: cubic-bezier(0.33, 1, 0.68, 1);
+  --body-text: #5a5a5a;
+  --blue-color: #0047ff;
+  --accent-color: #e2eaff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.desktop-heading-xlarge {
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 125%;
+  letter-spacing: -0.96px;
+}
+
+.desktop-heading-large {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 125%;
+  letter-spacing: -0.96px;
+}
+
+.desktop-heading-medium {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.96px;
+}
+
+.desktop-heading-small {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 2.4px;
+}
+
+.desktop-body-large {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: -0.48px;
+}
+
+.desktop-body-medium {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: -0.18px;
+}
+
+.desktop-body-small {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: -0.14px;
+}
+
+.mobile-heading-xlarge {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: -0.48px;
+}
+
+.mobile-heading-large {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.32px;
+}
+
+.mobile-heading-medium {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -0.24px;
+}
+
+.mobile-heading-small {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 125%;
+  letter-spacing: 2.1px;
+}
+
+.mobile-body-large {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.4px;
+}
+
+.mobile-body-medium {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: -0.32px;
+}
+
+.mobile-body-small {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: -0.12px;
 }
