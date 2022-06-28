@@ -1,5 +1,7 @@
 .container {
   margin-top: 92px;
+  margin-left: auto;
+  margin-right: auto;
   width: 288px;
   height: 216px;
   border: 1px solid #000;
@@ -12,4 +14,16 @@
 .image {
   width: 253.76px;
   height: 190.32px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1160px;
+    height: 580px;
+  }
+
+  .image {
+    width: 770.71px;
+    height: 578.03px;
+  }
 }

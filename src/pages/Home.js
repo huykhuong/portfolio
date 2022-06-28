@@ -45,9 +45,8 @@ const Home = () => {
       {/* Work section */}
       <Work size={size}>
         {WorkCardObject.map((object, i) => (
-          <>
+          <div key={i}>
             <WorkCard
-              key={i}
               imageURL={object.imageURL}
               type={object.type}
               name={object.name}
@@ -55,7 +54,7 @@ const Home = () => {
               size={size}
             />
             <div className={classes.blank}></div>
-          </>
+          </div>
         ))}
       </Work>
 

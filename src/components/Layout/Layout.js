@@ -11,7 +11,7 @@ const Layout = () => {
     <React.Fragment>
       <Navigation size={size} />
       <div className={classes.padding}>
-        <main>
+        <main className={classes.main}>
           <Outlet />
         </main>
       </div>

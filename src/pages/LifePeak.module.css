@@ -2,3 +2,29 @@
   margin-top: 48px;
   margin-bottom: 40px;
 }
+
+.external_p {
+  text-transform: uppercase;
+  color: #0047ff;
+  margin: 0;
+}
+
+.external_a {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.external_icon {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .project_title {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    max-width: 1280px;
+  }
+}

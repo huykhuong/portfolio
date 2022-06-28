@@ -46,16 +46,15 @@ const Contact = ({ size }) => {
       </p>
 
       {ContactInfo.map((element, index) => (
-        <>
+        <div key={index}>
           <HomepageContactElement
-            key={index}
             title={element.title}
             content={element.content}
             href={element.href}
             size={size}
           />
           <div className={classes.spacer}></div>
-        </>
+        </div>
       ))}
     </section>
   );
