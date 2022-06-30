@@ -15,7 +15,7 @@
 }
 
 .spacer {
-  height: 62px;
+  margin-top: 62px;
 }
 
 .spacer:last-child {
@@ -36,6 +36,6 @@
   }
 
   .spacer {
-    height: 96px;
+    margin-top: 96px;
   }
 }
