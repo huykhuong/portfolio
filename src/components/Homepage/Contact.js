@@ -22,7 +22,7 @@ const Contact = ({ size }) => {
   ];
 
   return (
-    <section id="homepage-contact" className={classes.container}>
+    <section id="contact" className={classes.container}>
       {/* Heading */}
       <h2
         className={`${

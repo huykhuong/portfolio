@@ -11,6 +11,10 @@
   --accent-color: #e2eaff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Be Vietnam Pro", sans-serif;
@@ -24,6 +28,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.scroll-lock {
+  height: 100%;
+  overflow: hidden;
 }
 
 .desktop-heading-xlarge {
@@ -122,4 +131,79 @@ code {
   font-size: 12px;
   line-height: 200%;
   letter-spacing: -0.12px;
+}
+
+.external_p {
+  text-transform: uppercase;
+  color: #0047ff;
+  margin: 0;
+}
+
+.external_a {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.external_a:last-child {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.external_icon {
+  margin-left: 10px;
+}
+
+.process_container {
+  margin-top: 48px;
+}
+
+.process_container h2 {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.modal_image {
+  display: block;
+  margin: auto;
+  cursor: zoom-out;
+  max-width: 98% !important;
+  max-height: 98% !important;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 1280px) {
+  .process_container {
+    margin-top: 64px;
+  }
+
+  .process_container h2 {
+    margin-bottom: 64px;
+  }
+
+  .project_detail_overview_wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project_detail_wrapper {
+    width: 470px;
+  }
+
+  .modal_image {
+    max-width: 93% !important;
+    max-height: 93% !important;
+  }
 }

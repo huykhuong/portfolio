@@ -11,7 +11,7 @@ const WorkCard = ({ imageURL, type, name, href, size }) => {
       </div>
 
       {/* Text div */}
-      <div>
+      <div className={classes.text_div_container}>
         <p
           className={`${
             size.width >= 1280
@@ -32,9 +32,9 @@ const WorkCard = ({ imageURL, type, name, href, size }) => {
         </p>
 
         {/* View project button */}
-        <button className={classes.button}>
-          <Link to={href}>View Project</Link>
-        </button>
+        <Link to={href}>
+          <button className={classes.button}>View Project</button>
+        </Link>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import Work from "../components/Homepage/Work";
 import WorkCard from "../components/ReusableComponents/HomepageWorkCard/WorkCard";
 import { useWindowSize } from "../hooks/useWindowSize";
 import classes from "./Home.module.css";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const size = useWindowSize();
@@ -39,6 +40,15 @@ const Home = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Junius Khuong</title>
+        <meta
+          name="description"
+          content="I'm Junius, welcome to my portfolio. I'm an ordinary boy who dreams to be a professional front-end developer."
+        />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+
       {/* Introduction section */}
       <Introduction size={size} />
 

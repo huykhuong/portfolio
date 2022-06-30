@@ -1,0 +1,36 @@
+.container h2 {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.container p {
+  color: var(--body-text);
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.container p:last-child {
+  margin: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container h2 {
+    margin: 0;
+    margin-bottom: 64px;
+  }
+
+  .content_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content_container p:first-child {
+    width: 567.95px;
+    height: 234.29px;
+    margin: 0;
+  }
+
+  .content_container p:last-child {
+    width: 469px;
+  }
+}

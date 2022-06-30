@@ -27,13 +27,13 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width >= 1280 && true} className={classes.nav}>
         <ul>
           <li>
-            <Link to="#homepage-about">about</Link>
+            <a href="#about">about</a>
           </li>
           <li>
-            <Link to="/add-quote">work</Link>
+            <a href="#work">work</a>
           </li>
           <li>
-            <Link to="/add-quote">contact</Link>
+            <a href="#contact">contact</a>
           </li>
         </ul>
       </nav>
@@ -42,7 +42,7 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width < 1280 && true} className={classes.desktop_nav}>
         <ul>
           <li>
-            <Link to="#homepage-about">about</Link>
+            <a href="#about">about</a>
           </li>
 
           {/* Desktop logo */}
@@ -58,10 +58,10 @@ const Navigation = ({ size }) => {
 
           <div className={classes.desktop_work_contact_group}>
             <li>
-              <Link to="/add-quote">work</Link>
+              <a href="#work">work</a>
             </li>
             <li>
-              <Link to="/add-quote">contact</Link>
+              <a href="#contact">contact</a>
             </li>
           </div>
         </ul>

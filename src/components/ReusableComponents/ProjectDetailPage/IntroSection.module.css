@@ -1,4 +1,4 @@
-.container {
+.img_container {
   margin-top: 92px;
   margin-left: auto;
   margin-right: auto;
@@ -11,19 +11,30 @@
   align-items: center;
 }
 
-.image {
+/* .img_container img {
   width: 253.76px;
   height: 190.32px;
+} */
+
+.project_title {
+  margin-top: 48px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
+  .img_container {
     width: 1160px;
     height: 580px;
   }
 
-  .image {
+  /* .img_container img {
     width: 770.71px;
     height: 578.03px;
+  } */
+
+  .project_title {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    max-width: 1280px;
   }
 }

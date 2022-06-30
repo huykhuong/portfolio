@@ -4,7 +4,7 @@ import classes from "./Introduction.module.css";
 
 const Introduction = ({ size }) => {
   return (
-    <section id="homepage-introduction" className={classes.container}>
+    <section id="introduction" className={classes.container}>
       {/* Image */}
       {size.width >= 1280 ? (
         <img src="/Logo4.png" alt="homepage-backgroundLogo" />

@@ -1,0 +1,24 @@
+.container p {
+  color: var(--body-text);
+}
+
+.overview_heading {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.content_small {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 567.69px;
+    margin-right: 122px;
+  }
+
+  .overview_heading {
+    margin-top: 0;
+    margin-bottom: 64px;
+  }
+}

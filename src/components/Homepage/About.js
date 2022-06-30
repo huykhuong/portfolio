@@ -3,7 +3,7 @@ import classes from "./About.module.css";
 
 const About = ({ size }) => {
   return (
-    <section id="homepage-about" className={classes.container}>
+    <section id="about" className={classes.container}>
       {/* Heading */}
       <h2
         className={`${

@@ -12,12 +12,12 @@ const WantMore = ({ href }) => {
           size.width >= 1280 ? "desktop-heading-large" : "mobile-heading-large"
         }`}
       >
-        Want More ?
+        Another One ?
       </h2>
 
-      <button>
-        <Link to={href}>Next Project</Link>
-      </button>
+      <Link to={href}>
+        <button>Next Project</button>
+      </Link>
     </div>
   );
 };

@@ -1,23 +1,14 @@
 import React, { useState } from "react";
 import { useWindowSize } from "../../hooks/useWindowSize";
 import ImageModal from "../ReusableComponents/ProjectDetailPage/ImageModal";
-import classes from "./ProcessCard.module.css";
+import classes from "./FirstProcessCard.module.css";
 
-const ProcessCard = ({
-  content,
-  imageURL,
-  row_reverse,
-  expanded_image_container,
-}) => {
+const FirstProcessCard = ({ content, imageURL }) => {
   const size = useWindowSize();
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div
-      className={`${classes.container} ${
-        size.width >= 1280 && row_reverse && `${classes.flex_reverse}`
-      }`}
-    >
+    <div className={`${classes.container}`}>
       {/* Image modal */}
       <ImageModal openModal={openModal} />
 
@@ -32,11 +23,7 @@ const ProcessCard = ({
 
       {/* Image */}
       <div
-        className={`${classes.image_container} ${
-          expanded_image_container &&
-          size.width >= 1280 &&
-          `${classes.expanded_image_container}`
-        }`}
+        className={classes.image_container}
         onClick={() => {
           setOpenModal((prevValue) => !prevValue);
           openModal
@@ -54,4 +41,4 @@ const ProcessCard = ({
   );
 };
 
-export default ProcessCard;
+export default FirstProcessCard;

@@ -1,0 +1,30 @@
+.container {
+  margin-bottom: 24px;
+}
+
+.container:last-child {
+  margin-bottom: 0;
+}
+
+.container p {
+  color: var(--body-text);
+  margin: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+  }
+
+  .container p {
+    max-width: 576.21px;
+    max-height: 390px;
+  }
+
+  .flex_reverse {
+    flex-direction: row-reverse;
+  }
+}

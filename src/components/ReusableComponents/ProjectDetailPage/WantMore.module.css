@@ -14,12 +14,36 @@
   background-color: transparent;
   border-radius: 32px;
   outline: none;
-}
-
-.container button a {
   text-decoration: none;
   color: #000;
-  font-weight: 800;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.7px;
+  transition: 0.3s var(--easing-curve);
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    margin-top: 177px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container button {
+    margin-top: 0;
+    width: 181px;
+    height: 62px;
+  }
+
+  .container button:hover {
+    cursor: pointer;
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    color: #ffffff;
+  }
 }
