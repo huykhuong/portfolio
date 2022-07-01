@@ -13,7 +13,7 @@ const AnTru = () => {
   return (
     <React.Fragment>
       <IntroSection
-        imageURL="/Antru8new.png"
+        imageURL="/Antru8.png"
         imageName="antru"
         project_name="An Trú Restaurant"
         height={size.width >= 1280 ? 519.44 : 190.32}

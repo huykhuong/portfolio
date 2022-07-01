@@ -28,7 +28,7 @@
 .image_container img {
   max-width: 184.03px;
   max-height: 222.47px;
-  transition: 0.3s var(--easing-curve);
+  transition: 0.2s var(--easing-curve);
 }
 
 @media only screen and (min-width: 1280px) {
