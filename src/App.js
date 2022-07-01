@@ -25,7 +25,7 @@ function App() {
       <ScrollToTop>
         <Routes>
           <Route path="/portfolio" element={<Layout />}>
-            <Route index element={<Home />} />
+            <Route exact path="/portfolio" index element={<Home />} />
             <Route path="/lifepeak" element={<LifePeak />} />
             <Route path="/ecovani" element={<Ecovani />} />
             <Route path="/antru" element={<AnTru />} />
