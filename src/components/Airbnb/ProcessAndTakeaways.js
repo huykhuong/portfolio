@@ -88,7 +88,7 @@ const ProcessAndTakeaways = () => {
             <img
               id={classes["image2"]}
               className={`${openModal && image === 2 && "modal_image"}`}
-              src="/Airbnb4.png"
+              src="/AirBnb4.png"
               alt="antru-image5"
             />
           </div>

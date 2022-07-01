@@ -41,7 +41,7 @@ const ProcessAndTakeaways = () => {
           className={`${classes.image1_container} ${classes.image_container}`}
         >
           <img
-            src="/Antru4.png"
+            src="/AnTru4.png"
             alt="antru-image1"
             className={`${openModal && image === 1 && "modal_image"}`}
           />
@@ -64,7 +64,7 @@ const ProcessAndTakeaways = () => {
         >
           <img
             className={`${openModal && image === 2 && "modal_image"}`}
-            src="/Antru3.png"
+            src="/AnTru3.png"
             alt="antru-image2"
           />
         </div>
@@ -80,7 +80,7 @@ const ProcessAndTakeaways = () => {
         >
           <img
             className={`${openModal && image === 3 && "modal_image"}`}
-            src="/Antru7.png"
+            src="/AnTru7.png"
             alt="antru-image3"
           />
         </div>
@@ -102,7 +102,7 @@ const ProcessAndTakeaways = () => {
         >
           <img
             className={`${openModal && image === 4 && "modal_image"}`}
-            src="/Antru5.png"
+            src="/AnTru5.png"
             alt="antru-image4"
           />
         </div>
@@ -124,7 +124,7 @@ const ProcessAndTakeaways = () => {
         >
           <img
             className={`${openModal && image === 5 && "modal_image"}`}
-            src="/Antru6.png"
+            src="/AnTru6.png"
             alt="antru-image5"
           />
         </div>
