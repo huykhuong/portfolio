@@ -24,7 +24,7 @@ function App() {
     <HelmetProvider>
       <ScrollToTop>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/portfolio" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/lifepeak" element={<LifePeak />} />
             <Route path="/ecovani" element={<Ecovani />} />
