@@ -88,7 +88,7 @@ const AirBnb = () => {
       </section>
 
       <section id="want-more">
-        <WantMore href="/antru" />
+        <WantMore href="/lifepeak" />
       </section>
     </React.Fragment>
   );
