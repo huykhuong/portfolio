@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import FirstProcessCard from "../components/Ecovani/FirstProcessCard";
 import Process from "../components/Ecovani/Process";
 import SecondProcessCard from "../components/Ecovani/SecondProcessCard";
@@ -14,6 +15,10 @@ const Ecovani = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Junius Khuong- Ecovani</title>
+      </Helmet>
+
       <IntroSection
         imageURL="/Ecovani2.png"
         imageName="ecovani"

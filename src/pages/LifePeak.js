@@ -15,9 +15,7 @@ const LifePeak = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Junius Khuong - LifePeak</title>
-        <meta name="description" content="Ayyo" />
-        <meta name="theme-color" content="#008f68" />
+        <title>Junius Khuong- LifePeak</title>
       </Helmet>
 
       {/* Featured Image */}

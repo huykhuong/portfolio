@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import ProcessAndTakeaways from "../components/Airbnb/ProcessAndTakeaways";
 import IntroSection from "../components/ReusableComponents/ProjectDetailPage/IntroSection";
 import Overview from "../components/ReusableComponents/ProjectDetailPage/Overview";
@@ -11,6 +12,10 @@ const AirBnb = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Junius Khuong- Airbnb</title>
+      </Helmet>
+
       <IntroSection
         imageURL="/Airbnb2.png"
         imageName="airbnb"

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import ProcessAndTakeaways from "../components/Antru/ProcessAndTakeaways";
 import ProjectDetailLink from "../components/Antru/ProjectDetailLink";
 import IntroSection from "../components/ReusableComponents/ProjectDetailPage/IntroSection";
@@ -12,6 +13,10 @@ const AnTru = () => {
 
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Junius Khuong- An Tru Restaurant</title>
+      </Helmet>
+
       <IntroSection
         imageURL="/Antru8.png"
         imageName="antru"

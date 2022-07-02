@@ -46,7 +46,6 @@ const Home = () => {
           name="description"
           content="I'm Junius, welcome to my portfolio. I'm an ordinary boy who dreams to be a professional front-end developer."
         />
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
 
       {/* Introduction section */}

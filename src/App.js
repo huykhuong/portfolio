@@ -8,7 +8,6 @@ import AnTru from "./pages/AnTru";
 import Ecovani from "./pages/Ecovani";
 import Home from "./pages/Home";
 import LifePeak from "./pages/LifePeak";
-import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   const ScrollToTop = (props) => {
@@ -21,20 +20,18 @@ function App() {
   };
 
   return (
-    <HelmetProvider>
-      <ScrollToTop>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="/lifepeak" element={<LifePeak />} />
-            <Route path="/ecovani" element={<Ecovani />} />
-            <Route path="/antru" element={<AnTru />} />
-            <Route path="/airbnb" element={<AirBnb />} />
-            {/* <Route path="*" element={<NoPage />} /> */}
-          </Route>
-        </Routes>
-      </ScrollToTop>
-    </HelmetProvider>
+    <ScrollToTop>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/lifepeak" element={<LifePeak />} />
+          <Route path="/ecovani" element={<Ecovani />} />
+          <Route path="/antru" element={<AnTru />} />
+          <Route path="/airbnb" element={<AirBnb />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </ScrollToTop>
   );
 }
 

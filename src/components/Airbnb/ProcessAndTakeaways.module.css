@@ -27,9 +27,9 @@
 
 #image1,
 #image2 {
-  width: 184.03px;
-  height: 222.47px;
-  transition: 2.1s var(--easing-curve);
+  max-width: 184.03px;
+  max-height: 222.47px;
+  transition: 0.2s var(--easing-curve);
 }
 
 @media only screen and (min-width: 1280px) {
@@ -69,12 +69,12 @@
   }
 
   #image1 {
-    width: 356.23px;
-    height: 326.39px;
+    max-width: 356.23px;
+    max-height: 326.39px;
   }
 
   #image2 {
-    width: 366.42px;
-    height: 277.25px;
+    max-width: 366.42px;
+    max-height: 277.25px;
   }
 }

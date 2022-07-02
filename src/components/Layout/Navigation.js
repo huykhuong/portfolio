@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import useScrollPosition from "../../hooks/useScrollPosition";
 import classes from "./Navigation.module.css";
 
@@ -42,7 +42,7 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width < 1280 && true} className={classes.desktop_nav}>
         <ul>
           <li>
-            <a href="#about">about</a>
+            <Link to="/#about">about</Link>
           </li>
 
           {/* Desktop logo */}
@@ -58,10 +58,10 @@ const Navigation = ({ size }) => {
 
           <div className={classes.desktop_work_contact_group}>
             <li>
-              <a href="#work">work</a>
+              <Link to="/#work">work</Link>
             </li>
             <li>
-              <a href="#contact">contact</a>
+              <Link to="/#contact">contact</Link>
             </li>
           </div>
         </ul>
