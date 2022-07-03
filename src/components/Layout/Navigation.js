@@ -27,13 +27,13 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width >= 1280 && true} className={classes.nav}>
         <ul>
           <li>
-            <a href="/#about">about</a>
+            <a href="#about">about</a>
           </li>
           <li>
-            <a href="/#work">work</a>
+            <a href="#work">work</a>
           </li>
           <li>
-            <a href="/#contact">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
       </nav>
