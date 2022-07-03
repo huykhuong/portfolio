@@ -16,7 +16,7 @@ const Ecovani = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Junius Khuong- Ecovani</title>
+        <title>Junius Khuong - Ecovani</title>
       </Helmet>
 
       <IntroSection

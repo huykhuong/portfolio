@@ -71,6 +71,7 @@ const Home = () => {
       <About size={size} />
 
       {/* Contact section */}
+
       <Contact size={size} />
     </React.Fragment>
   );

@@ -13,7 +13,7 @@ const AirBnb = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Junius Khuong- Airbnb</title>
+        <title>Junius Khuong - Airbnb</title>
       </Helmet>
 
       <IntroSection

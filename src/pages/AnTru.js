@@ -14,7 +14,7 @@ const AnTru = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Junius Khuong- An Tru Restaurant</title>
+        <title>Junius Khuong - An Tru Restaurant</title>
       </Helmet>
 
       <IntroSection

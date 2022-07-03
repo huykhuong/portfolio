@@ -27,13 +27,13 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width >= 1280 && true} className={classes.nav}>
         <ul>
           <li>
-            <a href="#about">about</a>
+            <a href="/#about">about</a>
           </li>
           <li>
-            <a href="#work">work</a>
+            <a href="/#work">work</a>
           </li>
           <li>
-            <a href="#contact">contact</a>
+            <a href="/#contact">contact</a>
           </li>
         </ul>
       </nav>
@@ -42,7 +42,14 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width < 1280 && true} className={classes.desktop_nav}>
         <ul>
           <li>
-            <Link to="/#about">about</Link>
+            <Link
+              to={{
+                pathname: "/",
+                hash: "#about",
+              }}
+            >
+              about
+            </Link>
           </li>
 
           {/* Desktop logo */}
@@ -58,10 +65,24 @@ const Navigation = ({ size }) => {
 
           <div className={classes.desktop_work_contact_group}>
             <li>
-              <Link to="/#work">work</Link>
+              <Link
+                to={{
+                  pathname: "/",
+                  hash: "#work",
+                }}
+              >
+                work
+              </Link>
             </li>
             <li>
-              <Link to="/#contact">contact</Link>
+              <Link
+                to={{
+                  pathname: "/",
+                  hash: "#contact",
+                }}
+              >
+                contact
+              </Link>
             </li>
           </div>
         </ul>

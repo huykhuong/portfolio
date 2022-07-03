@@ -15,7 +15,7 @@ const LifePeak = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Junius Khuong- LifePeak</title>
+        <title>Junius Khuong - LifePeak</title>
       </Helmet>
 
       {/* Featured Image */}
