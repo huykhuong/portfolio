@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import ProcessAndTakeaways from "../components/Airbnb/ProcessAndTakeaways";
 import IntroSection from "../components/ReusableComponents/ProjectDetailPage/IntroSection";
@@ -9,6 +9,10 @@ import { useWindowSize } from "../hooks/useWindowSize";
 
 const AirBnb = () => {
   const size = useWindowSize();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <React.Fragment>

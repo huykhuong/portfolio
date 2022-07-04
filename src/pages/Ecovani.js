@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import FirstProcessCard from "../components/Ecovani/FirstProcessCard";
 import Process from "../components/Ecovani/Process";
@@ -12,6 +12,10 @@ import { useWindowSize } from "../hooks/useWindowSize";
 
 const Ecovani = () => {
   const size = useWindowSize();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <React.Fragment>

@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Layout from "./components/Layout/Layout";
@@ -10,28 +8,17 @@ import Home from "./pages/Home";
 import LifePeak from "./pages/LifePeak";
 
 function App() {
-  const ScrollToTop = (props) => {
-    const location = useLocation();
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [location]);
-
-    return <>{props.children}</>;
-  };
-
   return (
-    <ScrollToTop>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/lifepeak" element={<LifePeak />} />
-          <Route path="/ecovani" element={<Ecovani />} />
-          <Route path="/antru" element={<AnTru />} />
-          <Route path="/airbnb" element={<AirBnb />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
-        </Route>
-      </Routes>
-    </ScrollToTop>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/lifepeak" element={<LifePeak />} />
+        <Route path="/ecovani" element={<Ecovani />} />
+        <Route path="/antru" element={<AnTru />} />
+        <Route path="/airbnb" element={<AirBnb />} />
+        {/* <Route path="*" element={<NoPage />} /> */}
+      </Route>
+    </Routes>
   );
 }
 

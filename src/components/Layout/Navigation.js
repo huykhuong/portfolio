@@ -12,7 +12,7 @@ const Navigation = ({ size }) => {
         classes.header
       }`}
     >
-      <Link to="/">
+      <Link to="/#introduction">
         <img
           hidden={size.width >= 1280 && true}
           className={classes.logo}
@@ -27,13 +27,34 @@ const Navigation = ({ size }) => {
       <nav hidden={size.width >= 1280 && true} className={classes.nav}>
         <ul>
           <li>
-            <a href="#about">about</a>
+            <Link
+              to={{
+                pathname: "/",
+                hash: "#about",
+              }}
+            >
+              about
+            </Link>
           </li>
           <li>
-            <a href="#work">work</a>
+            <Link
+              to={{
+                pathname: "/",
+                hash: "#work",
+              }}
+            >
+              work
+            </Link>
           </li>
           <li>
-            <a href="#contact">contact</a>
+            <Link
+              to={{
+                pathname: "/",
+                hash: "#contact",
+              }}
+            >
+              contact
+            </Link>
           </li>
         </ul>
       </nav>
@@ -53,7 +74,7 @@ const Navigation = ({ size }) => {
           </li>
 
           {/* Desktop logo */}
-          <Link to="/">
+          <Link to="/#introduction">
             <img
               className={classes.logo}
               src="/Logo.png"

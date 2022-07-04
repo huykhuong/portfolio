@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Process from "../components/LifePeak/Process";
 import ProcessCard from "../components/LifePeak/ProcessCard";
 import TakeAways from "../components/LifePeak/TakeAways";
@@ -11,6 +11,10 @@ import { Helmet } from "react-helmet";
 
 const LifePeak = () => {
   const size = useWindowSize();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <React.Fragment>

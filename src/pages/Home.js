@@ -7,9 +7,14 @@ import WorkCard from "../components/ReusableComponents/HomepageWorkCard/WorkCard
 import { useWindowSize } from "../hooks/useWindowSize";
 import classes from "./Home.module.css";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 const Home = () => {
   const size = useWindowSize();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   const WorkCardObject = [
     {

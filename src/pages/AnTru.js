@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import ProcessAndTakeaways from "../components/Antru/ProcessAndTakeaways";
 import ProjectDetailLink from "../components/Antru/ProjectDetailLink";
@@ -10,6 +10,10 @@ import { useWindowSize } from "../hooks/useWindowSize";
 
 const AnTru = () => {
   const size = useWindowSize();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
 
   return (
     <React.Fragment>
