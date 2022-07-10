@@ -17,7 +17,7 @@ const Contact = ({ size }) => {
     {
       title: "Resume",
       content: "View",
-      href: "https://drive.google.com/file/d/1YJ31U6equmlRNUMi8w_VyV5D4tMb7iMt/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1wDP0uJdvV0hIFAzvYhjvDLhbrJilq5qJ/view?usp=sharing",
     },
   ];
 
